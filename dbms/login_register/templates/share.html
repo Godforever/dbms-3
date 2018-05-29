@@ -1,0 +1,11 @@
+{{registAdd}} 
+<br>
+==================
+<br>
+{% if  username %}
+注册失败{{username}}已存在
+<a href="http://127.0.0.1:8000/register">注册</a>
+{% else %}
+注册成功！
+<a href="http://127.0.0.1:8000/login">登录</a>
+{% endif %}
